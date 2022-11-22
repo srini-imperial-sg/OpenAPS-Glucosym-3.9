@@ -1,0 +1,24 @@
+{
+  "units": "mg/dL",
+  "targets": [
+    {
+      "high": 180,
+      "start": "00:00:00",
+      "low": 70,
+      "offset": 0
+    },
+    {
+      "high": 180,
+      "start": "06:00:00",
+      "low": 70,
+      "offset": 360
+    },
+    {
+      "high": 180,
+      "start": "20:00:00",
+      "low": 70,
+      "offset": 1200
+    }
+  ],
+  "first": 1
+}
