@@ -299,9 +299,6 @@ for _ in range(iteration_num):
 #########################=============inject fault here==============#####################
   ## Fault_injection : Injection of fault in Controller output ######################
   #rate:HOOK#
-  if _>=6 and _<55:
-    rate_refresh=0
-
 
 
   #loaded_suggested_data["rate"] = random.randint(0,5) # Activate for faulty system. For non_faulty system, comment this out 
