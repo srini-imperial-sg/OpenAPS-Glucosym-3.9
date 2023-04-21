@@ -2,360 +2,248 @@
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 130.61340323859463,
-        "date": 1669144164000,
+        "glucose": 150.3887103036127,
+        "date": 1668289459000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 132.2257540237517,
-        "date": 1669143863000,
+        "glucose": 150.98452654782767,
+        "date": 1668289158000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 133.9146306367088,
-        "date": 1669143562000,
+        "glucose": 151.59463175244142,
+        "date": 1668288856000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 135.67820011591823,
-        "date": 1669143262000,
+        "glucose": 152.21556051664118,
+        "date": 1668288555000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 137.5137789065611,
-        "date": 1669142961000,
+        "glucose": 152.84327541538877,
+        "date": 1668288254000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 139.41772602663693,
-        "date": 1669142660000,
+        "glucose": 153.47292551341548,
+        "date": 1668287953000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 141.38533434527977,
-        "date": 1669142359000,
+        "glucose": 154.09935982887728,
+        "date": 1668287652000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 143.41072318965368,
-        "date": 1669142059000,
+        "glucose": 154.7172331444773,
+        "date": 1668287351000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 145.48673655812647,
-        "date": 1669141758000,
+        "glucose": 155.32115081387823,
+        "date": 1668287050000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 147.60485245996443,
-        "date": 1669141457000,
+        "glucose": 155.90565211044074,
+        "date": 1668286749000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 149.75511032397208,
-        "date": 1669141157000,
+        "glucose": 156.46496634597426,
+        "date": 1668286448000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 151.92606500616267,
-        "date": 1669140856000,
+        "glucose": 156.9935088413124,
+        "date": 1668286147000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 154.1047776491377,
-        "date": 1669140555000,
+        "glucose": 157.48613110429056,
+        "date": 1668285846000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 156.27685545292243,
-        "date": 1669140254000,
+        "glucose": 157.93843328875303,
+        "date": 1668285544000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 158.426554235762,
-        "date": 1669139954000,
+        "glucose": 158.34693776452283,
+        "date": 1668285243000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 160.53695939853998,
-        "date": 1669139653000,
+        "glucose": 158.70906169274443,
+        "date": 1668284942000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 162.59026244407946,
-        "date": 1669139352000,
+        "glucose": 159.02323736189456,
+        "date": 1668284641000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 164.56815142003754,
-        "date": 1669139052000,
+        "glucose": 159.28881239549474,
+        "date": 1668284340000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 166.4523344393651,
-        "date": 1669138751000,
+        "glucose": 159.50628964939702,
+        "date": 1668284039000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 168.22521571565633,
-        "date": 1669138450000,
+        "glucose": 159.67739376658804,
+        "date": 1668283738000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 169.8707433533322,
-        "date": 1669138149000,
+        "glucose": 159.80532370246965,
+        "date": 1668283437000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 171.37544763680518,
-        "date": 1669137849000,
+        "glucose": 159.89461771264712,
+        "date": 1668283135000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 172.7296882099691,
-        "date": 1669137548000,
+        "glucose": 159.9513454794222,
+        "date": 1668282834000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 173.92912916182803,
-        "date": 1669137247000,
+        "glucose": 159.9826848897584,
+        "date": 1668282533000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 174.9764640452408,
-        "date": 1669136947000,
+        "glucose": 159.99631352410765,
+        "date": 1668282232000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 175.8834204910889,
-        "date": 1669136646000,
+        "glucose": 160.0,
+        "date": 1668281931000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 176.66304466024584,
-        "date": 1669136345000,
+        "glucose": 160.0,
+        "date": 1668281630000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 177.329077094418,
-        "date": 1669136044000,
+        "glucose": 160.0,
+        "date": 1668281329000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 177.89514674714948,
-        "date": 1669135744000,
+        "glucose": 160.0,
+        "date": 1668281028000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 178.37368651869463,
-        "date": 1669135443000,
+        "glucose": 160.0,
+        "date": 1668280727000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     },
     {
         "type": "sgv",
         "sgv": 101,
-        "glucose": 178.77460829782547,
-        "date": 1669135141000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.10384772026077,
-        "date": 1669134834000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.36803315158963,
-        "date": 1669134534000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.57432497950882,
-        "date": 1669134233000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.73020259554508,
-        "date": 1669133932000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.84318928059,
-        "date": 1669133632000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.92050309973962,
-        "date": 1669133331000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.96861934989164,
-        "date": 1669133030000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 179.99272708463474,
-        "date": 1669132729000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669132428000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669132128000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669131827000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669131526000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669131226000,
-        "device": "fakecgm",
-        "dateString": "2021-07-01T10:40:00-07:00"
-    },
-    {
-        "type": "sgv",
-        "sgv": 101,
-        "glucose": 180.0,
-        "date": 1669175915000,
+        "glucose": 160.0,
+        "date": 1668137760000,
         "device": "fakecgm",
         "dateString": "2021-07-01T10:40:00-07:00"
     }
