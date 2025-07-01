@@ -1,0 +1,65 @@
+import os
+import json
+import logging
+from flask import Flask, request, jsonify
+import threading
+import time
+from subprocess import call
+from collections import namedtuple
+from datetime import datetime, timezone
+Action = namedtuple('ctrller_action', ['basal', 'bolus'])
+
+logger = logging.getLogger(__name__)
+
+app = Flask(__name__)
+with open("./monitor/glucose.json") as f:
+    data = json.load(f)
+    f.close()
+
+with open("./../glucosym/closed_loop_algorithm_samples/algo_input.json") as update_algo_input:
+    loaded_algo_input = json.load(update_algo_input)
+    update_algo_input.close()
+
+
+@app.route('/policy', methods=['POST'])
+def policy():
+    """Main policy endpoint for OpenAPS controller decisions"""
+
+    observations = request.get_json()
+    glucose = observations.get('CGM', 120)
+    cho = observations.get('CHO', 0)
+    print(f"Glucose: {glucose}, CHO: {cho}")
+    data_to_prepend = data[0].copy()
+    data_to_prepend["glucose"] = glucose
+    data_to_prepend["date"] = int(time.time().to())*1000+(1)*1*10*10
+    data_to_prepend["dateString"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+
+    print("data_to_prepend", data_to_prepend)
+    data.insert(0, data_to_prepend)
+    
+   
+    with open("/home/srini/ts/OpenAPS-Glucosym-3.9/openaps3.9/monitor/glucose.json", 'w') as outfile:
+        json.dump(data, outfile, indent=4)
+   
+    call(["openaps", "report", "invoke", "settings/profile.json"])
+    call(["openaps", "report", "invoke", "monitor/iob.json"])
+    
+            #run openaps to get suggested tempbasal
+    call(["openaps", "report", "invoke", "enact/suggested.json"])
+    call(["cat", "enact/suggested.json"])
+
+
+    with open("enact/suggested.json") as read_suggested:
+        loaded_suggested_data = json.load(read_suggested)
+        read_suggested.close()
+
+    print(f"Suggested basal: {loaded_suggested_data['rate']}")
+    action = Action(basal=loaded_suggested_data["rate"], bolus=0)
+    return jsonify({"basal": action.basal, "bolus": action.bolus})
+
+if __name__ == '__main__':
+    # Configure logging
+    logging.basicConfig(level=logging.INFO)
+    
+    # Run the Flask app
+    app.run(host='0.0.0.0', port=5000, debug=True) 
