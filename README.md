@@ -125,6 +125,17 @@ Run the following command:
 ```
 The output data should be collected in a file called data.scv under the OpenAPS directory.
 
+### Starting OpenAPS Server
+
+To start the OpenAPS server for API access, run the following command:
+
+You need to install Flask
+```
+cd openaps3.9
+python openaps_api.py
+```
+
+
 <!-- USAGE EXAMPLES -->
 <!-- ## Usage
 
@@ -158,3 +169,6 @@ Contributions are what make the open source community such an amazing place to b
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- * [GitHub Pages](https://pages.github.com) -->
+
+
+
