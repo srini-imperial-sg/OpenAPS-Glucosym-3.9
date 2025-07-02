@@ -13,10 +13,10 @@ def test_openaps_api():
     # Test cases with different glucose values
     
     test_cases = [
-        {"CGM": 200, "CHO": 0},    # Normal glucose
-        # {"CGM": 180, "CHO": 0},    # High glucose
-        # {"CGM": 80, "CHO": 0},     # Low glucose
-        # {"CGM": 150, "CHO": 30},   # With carbohydrates
+        {"CGM": 200, "CHO": 0, "index": 0},    # Normal glucose
+        {"CGM": 180, "CHO": 0, "index": 1},    # High glucose
+        {"CGM": 80, "CHO": 0, "index": 2},     # Low glucose
+        {"CGM": 150, "CHO": 30, "index": 3},   # With carbohydrates
     ]
     
     print("Testing OpenAPS API...")

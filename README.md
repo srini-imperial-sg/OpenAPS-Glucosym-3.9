@@ -133,7 +133,11 @@ You need to install Flask
 ```
 cd openaps3.9
 python openaps_api.py
+
+#sample inference server 
+python test.py
 ```
+
 
 
 <!-- USAGE EXAMPLES -->
